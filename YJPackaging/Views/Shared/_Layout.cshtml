@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="~/Content/Scripts/main.js"></script>
+    @Styles.Render("~/Content/css")
+    @*@Scripts.Render("~/bundles/modernizr")*@
+</head>
+<body>
+      <div class="container" style="padding:0; background-color:white; max-width:941px">
+    <nav role="navigation" class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+           <a href="#"><img src="~/Content/images/logo.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse" style="margin-top:40px">
+            <ul class="nav navbar-nav">
+                <li id="home"><a href="/">Home</a></li>
+                <li id="service"><a href="/Service">Service</a></li>
+                <li id="technology"><a href="/Technology">Technology</a></li>
+                <li id="clients"><a href="/Clients">Clients</a></li>
+                <li id="company"><a href="/Company">Company</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://admin.yjpackagingsolutions.com">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div style="background-color:white">
+              @RenderBody()
+    </div>
+</div>
+
+   <footer class="footer" >
+      <div class="container" style="background-color:#e8e7e7; text-align:center;max-width:941px">
+            <div style="width:100%;">
+                <img src="~/Content/images/logosmall.png" />&nbsp;&nbsp;&nbsp;
+
+&copy; 2015 <b>Y.J. Packaging Solutions</b> 201 Gates Road  unit# F Little Ferry, NJ  07643 :: info@yjpackagingsolutions.com </div>
+@*             <div style="background-color:#0070c0;width:100%; text-align:center; color:white"></div>*@
+@*        <p class="text-muted">Y.J. Packaging & Delivery Inc.</p>*@
+      </div>
+    </footer>
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

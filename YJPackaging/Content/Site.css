@@ -1,0 +1,29 @@
+﻿body {
+    /*background-image: url(/Content/images/newbackground.png);*/
+}
+
+.hilite {
+    background-color:#95d1fc;
+}
+
+#titleDiv {
+    width:100%;
+    font-size:20px;
+    font-weight:bold;
+    background-color:#95d1fc;
+    color:#fff;
+    padding-left:10px;
+}
+
+.subTitleDiv {
+    width:100%;
+    font-size:20px;
+    border-bottom-style:solid;
+    border-color:#95d1fc;
+    border-width:3px;
+}
+
+.copyDiv {
+    margin-top:5px;
+    margin-bottom:30px;
+}

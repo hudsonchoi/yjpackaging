@@ -1,0 +1,6 @@
+D:\Project\YJPackaging\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Project\YJPackaging\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Project\YJPackaging\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Project\YJPackaging\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Project\YJPackaging\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Project\YJPackaging\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
