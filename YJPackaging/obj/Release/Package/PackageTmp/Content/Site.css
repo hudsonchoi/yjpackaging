@@ -1,29 +1,346 @@
 ﻿body {
-    /*background-image: url(/Content/images/newbackground.png);*/
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
 }
 
-.hilite {
-    background-color:#95d1fc;
+header, footer, nav, section {
+    display: block;
 }
 
-#titleDiv {
-    width:100%;
-    font-size:20px;
-    font-weight:bold;
-    background-color:#95d1fc;
-    color:#fff;
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+    /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+    background: url('/Content/images/home.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+div.container {
+  margin: 91px 0px 0px 0px;
+  padding: 0;
+  width: 100%; 
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 20px 0;
+}
+
+.imgDiv {
+    float:left;
+    padding:5px;
+}
+
+.imgDiv img{
+    margin-top:10px;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    padding:3px;
+    border: solid 1px #CCC; -moz-box-shadow: 3px 3px 0px #dddddd; -webkit-box-shadow: 3px 3px 0px #dddddd; box-shadow: 3px 3px 0px #dddddd;
+}
+.contactDiv {
+    margin-top:10px;
+    padding:40px 0px 10px 7px ;
+   float:left;
+   font-size:12px;
+}
+
+.contactMobileDiv {
+    margin-top:30px;
+   padding:15px 0px 10px 7px ;
+   float:left;
+   font-size:12px;
+}
+
+.photoBorder {
+    /*border:dotted;
+    border-width:1px;*/
+}
+
+.nav {
+    font-weight: bold;
+}
+
+.navbar> .navbar-header > .navbar-brand {
+  background: url(../Content/images/logo.png) no-repeat;
+  background-size: 118px 90px;
+  height: 90px;
+  width: 118px;
+  margin-left: 2px; 
+  margin-right:100px;
+}
+
+.navbar-right {
+    padding-right:100px;
+}
+
+
+.sortCmd {
     padding-left:10px;
 }
 
-.subTitleDiv {
-    width:100%;
-    font-size:20px;
-    border-bottom-style:solid;
-    border-color:#95d1fc;
-    border-width:3px;
+.required {
+    margin-left:2px;
+    font-size:18px;
+    font-weight:bold;
+    color:red;
 }
 
-.copyDiv {
-    margin-top:5px;
-    margin-bottom:30px;
+.thanks {
+    font-weight:bold;
+    color:#009f00;
 }
+
+.TownInfo {
+    border: 1px solid #999999;
+    background: #e4ebf0;
+    padding:5px;
+    text-align:center;
+    width:290px;
+    font-size:12px;
+}
+
+.main {
+    margin-top:80px;
+}
+
+.hilite {
+    text-decoration:underline;
+}
+
+#main-page-carousel {
+  min-height: 26.666667vw;
+  width: 40vw;
+  position: absolute;
+  top: 35vw;
+  right: 10vw; }
+  @media (max-width: 767px) {
+    #main-page-carousel {
+      width: 100vw;
+      min-height: 50vw;
+      position: relative;
+      top: 0;
+      right: 0;
+      opacity: 1;
+      margin-top: 0; } }
+  #main-page-carousel .carousel-inner {
+    background: #672d80;
+    background: -webkit-linear-gradient(45deg, #454242, #454242);
+    background: -o-linear-gradient(45deg, #454242, #454242);
+    background: -moz-linear-gradient(45deg, #454242, #454242);
+    background: linear-gradient(45deg, #454242, #454242);
+    min-height: 20vw;
+    width: 40vw;
+    opacity: 0.7;
+    color:white
+  }
+    @media (max-width: 767px) {
+      #main-page-carousel .carousel-inner {
+        min-height: 55vw;
+        width: 100vw;
+        position: relative;
+        top: 0;
+        opacity: 1;
+        margin-top: 0; } }
+  #main-page-carousel .carousel-indicators {
+    left: 100%;
+    margin-bottom: 0;
+    width: auto; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      #main-page-carousel .carousel-indicators {
+        left: 90%;
+        bottom: 15px; } }
+    @media (max-width: 767px) {
+      #main-page-carousel .carousel-indicators {
+        left: 90%;
+        bottom: 15px; } }
+    #main-page-carousel .carousel-indicators li {
+      width: 14px;
+      height: 14px; }
+  #main-page-carousel .color-box {
+    position: relative;
+    bottom: 0px;
+    padding-top: 0; }
+    @media (min-width: 1600px) {
+      #main-page-carousel .color-box {
+        padding-top: 3vw; } }
+    @media (min-width: 1200px) and (max-width: 1599px) {
+      #main-page-carousel .color-box {
+        padding-top: 3vw; 
+      } }
+  #main-page-carousel .text-box {
+    padding-bottom: 10px;
+    margin-left: 16px; }
+    @media (max-width: 767px) {
+      #main-page-carousel .text-box {
+        margin-left: 0; } }
+  #main-page-carousel .btn {
+    color: white;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.3);
+    transition: border-color 0.4s ease-in;
+    -webkit-transition: border-color 0.4s ease-in;
+    -o-transition: border-color 0.4s ease-in;
+    -moz-transition: border-color 0.4s ease-in;
+    -ms-transition: border-color 0.4s ease-in; }
+    #main-page-carousel .btn:hover {
+      border-color: white; }
+
+
+    .main-page-1 {
+  background-color: #ebebeb;
+  position: relative;
+  padding-bottom: 50px; }
+  .main-page-1 > span {
+    position: absolute;
+    top: -80px; }
+    @media (max-width: 767px) {
+      .main-page-1 > span {
+        top: -60px; } }
+
+.main-page-1-upper-panel {
+  padding-top: 0px;
+  position: relative;
+  min-height: calc(42vw + 80px); }
+
+.main-page-1-lower-panel {
+  padding: 0 15px;
+  margin-bottom: 50px; }
+
+.main-page-1-image-box {
+  background-size: contain;
+  height: 42vw;
+  width: 60vw;
+  position: absolute;
+  overflow: hidden;
+  left: 0; }
+  .main-page-1-image-box img {
+    width: 100%; }
+
+.main-page-1-color-box {
+  background: #393980;
+  background: -webkit-linear-gradient(45deg, #454242, #454242);
+  background: -o-linear-gradient(45deg, #454242, #454242);
+  background: -moz-linear-gradient(45deg, #454242, #454242);
+  background: linear-gradient(45deg, #454242, #454242);
+  min-height: 18vw;
+  width: 48vw;
+  opacity: 0.8;
+  position: absolute;
+  margin-top: 5vw;
+  z-index: 10;
+  right: 55px;
+  color:white;
+}
+
+@media (max-width: 767px) {
+  .main-page-1 {
+    background-color: white;
+    position: relative;
+    padding-bottom: 50px;
+    width: 100vw; }
+  .main-page-1-upper-panel {
+    padding-top: 0;
+    position: relative;
+    min-height: 0; }
+  .main-page-1-lower-panel {
+    padding: 0 15px;
+    position: relative;
+    margin: 0 0 20px; }
+  .main-page-1-image-box {
+    background-size: contain;
+    height: auto;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    top: 0; }
+  .main-page-1-color-box {
+    background: #393980;
+    background: -webkit-linear-gradient(45deg, #454242, #454242);
+    background: -o-linear-gradient(45deg, #454242, #454242);
+    background: -moz-linear-gradient(45deg, #454242, #454242);
+    background: linear-gradient(45deg, #454242, #454242);
+    min-height: 0;
+    width: 90vw;
+    opacity: 0.8;
+    position: relative;
+    left: 5vw;
+    z-index: 10;
+    top: -50px;
+    margin: 0; } }

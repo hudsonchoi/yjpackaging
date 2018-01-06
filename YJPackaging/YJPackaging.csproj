@@ -148,14 +148,16 @@
     <Content Include="Content\bootstrap\js\bootstrap.js" />
     <Content Include="Content\bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\bootstrap\js\npm.js" />
-    <Content Include="Content\images\AboutUs.jpg" />
     <Content Include="Content\images\home.png" />
+    <Content Include="Content\images\Inventories.png" />
+    <Content Include="Content\images\Inventory.jpg" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\logosmall.png" />
     <Content Include="Content\images\main.jpg" />
     <Content Include="Content\images\newbackground.gif" />
     <Content Include="Content\images\newbackground.png" />
     <Content Include="Content\images\orders.png" />
+    <Content Include="Content\images\Service.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
